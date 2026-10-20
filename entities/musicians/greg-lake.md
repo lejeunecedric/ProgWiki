@@ -3,8 +3,10 @@ title: Greg Lake
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+died: 2016-12-07
+born: 1947-11-10
 tags: [musician, history]
-sources: [raw/articles/greg-lake.md, raw/articles/emerson-lake-palmer.md]
+sources: [raw/articles/greg-lake.md, raw/articles/emerson-lake-palmer.md, https://en.wikipedia.org/wiki/Greg_Lake]
 confidence: high
 ---
 

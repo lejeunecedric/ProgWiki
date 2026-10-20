@@ -3,8 +3,9 @@ title: Tony Levin
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1946-06-06
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-chapman-stick.md, raw/articles/wikipedia-king-crimson.md, raw/articles/wikipedia-discipline-album.md, raw/articles/wikipedia-robert-fripp.md, raw/articles/wikipedia-bill-bruford.md]
+sources: [raw/articles/wikipedia-chapman-stick.md, raw/articles/wikipedia-king-crimson.md, raw/articles/wikipedia-discipline-album.md, raw/articles/wikipedia-robert-fripp.md, raw/articles/wikipedia-bill-bruford.md, https://en.wikipedia.org/wiki/Tony_Levin]
 confidence: high
 ---
 # Tony Levin

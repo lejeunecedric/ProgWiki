@@ -3,8 +3,10 @@ title: Keith Emerson
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+died: 2016-03-11
+born: 1944-11-02
 tags: [musician, instrument, history]
-sources: [raw/articles/keith-emerson.md, raw/articles/emerson-lake-palmer.md]
+sources: [raw/articles/keith-emerson.md, raw/articles/emerson-lake-palmer.md, https://en.wikipedia.org/wiki/Keith_Emerson]
 confidence: high
 ---
 

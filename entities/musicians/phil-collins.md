@@ -3,8 +3,9 @@ title: Phil Collins
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1951-01-30
 tags: [musician, history, music]
-sources: [raw/articles/phil-collins.md, raw/articles/genesis-band.md]
+sources: [raw/articles/phil-collins.md, raw/articles/genesis-band.md, https://en.wikipedia.org/wiki/Phil_Collins]
 confidence: high
 ---
 

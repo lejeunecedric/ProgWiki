@@ -3,8 +3,9 @@ title: Bill Bruford
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1949-05-17
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-bill-bruford.md, raw/articles/wikipedia-king-crimson.md, raw/articles/wikipedia-larks-tongues-in-aspic.md]
+sources: [raw/articles/wikipedia-bill-bruford.md, raw/articles/wikipedia-king-crimson.md, raw/articles/wikipedia-larks-tongues-in-aspic.md, https://en.wikipedia.org/wiki/Bill_Bruford]
 confidence: high
 ---
 # Bill Bruford

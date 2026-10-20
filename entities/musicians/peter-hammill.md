@@ -3,8 +3,9 @@ title: Peter Hammill
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1948-11-05
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-van-der-graaf-generator.md, raw/articles/charisma-records.md, raw/articles/progressive-rock.md, raw/articles/wikipedia-robert-fripp.md, raw/articles/keith-emerson.md]
+sources: [raw/articles/wikipedia-van-der-graaf-generator.md, raw/articles/charisma-records.md, raw/articles/progressive-rock.md, raw/articles/wikipedia-robert-fripp.md, raw/articles/keith-emerson.md, https://en.wikipedia.org/wiki/Peter_Hammill]
 confidence: high
 ---
 # Peter Hammill

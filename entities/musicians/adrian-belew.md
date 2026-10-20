@@ -3,8 +3,9 @@ title: Adrian Belew
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1949-12-23
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-king-crimson.md, raw/articles/wikipedia-discipline-album.md, raw/articles/wikipedia-robert-fripp.md, raw/articles/wikipedia-bill-bruford.md, raw/articles/progressive-rock.md]
+sources: [raw/articles/wikipedia-king-crimson.md, raw/articles/wikipedia-discipline-album.md, raw/articles/wikipedia-robert-fripp.md, raw/articles/wikipedia-bill-bruford.md, raw/articles/progressive-rock.md, https://en.wikipedia.org/wiki/Adrian_Belew]
 confidence: high
 ---
 # Adrian Belew

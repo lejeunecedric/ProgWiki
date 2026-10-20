@@ -3,8 +3,9 @@ title: Jon Anderson
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1944-10-25
 tags: [musician, symphonic-prog, concept-album]
-sources: [raw/articles/wikipedia-jon-anderson.md, raw/articles/wikipedia-yes-band.md]
+sources: [raw/articles/wikipedia-jon-anderson.md, raw/articles/wikipedia-yes-band.md, https://en.wikipedia.org/wiki/Jon_Anderson]
 confidence: high
 ---
 

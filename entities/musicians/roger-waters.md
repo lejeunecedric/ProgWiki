@@ -3,8 +3,9 @@ title: Roger Waters
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1943-09-06
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-pink-floyd.md, raw/articles/wikipedia-echoes-song.md, raw/articles/wikipedia-the-wall.md, raw/articles/wikipedia-rickenbacker-4001.md]
+sources: [raw/articles/wikipedia-pink-floyd.md, raw/articles/wikipedia-echoes-song.md, raw/articles/wikipedia-the-wall.md, raw/articles/wikipedia-rickenbacker-4001.md, https://en.wikipedia.org/wiki/Roger_Waters]
 confidence: high
 ---
 # Roger Waters

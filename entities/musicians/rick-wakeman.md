@@ -3,8 +3,9 @@ title: Rick Wakeman
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1949-05-18
 tags: [musician, instrument, symphonic-prog, concept-album]
-sources: [raw/articles/wikipedia-rick-wakeman.md, raw/articles/wikipedia-close-to-the-edge.md]
+sources: [raw/articles/wikipedia-rick-wakeman.md, raw/articles/wikipedia-close-to-the-edge.md, https://en.wikipedia.org/wiki/Rick_Wakeman]
 confidence: high
 ---
 

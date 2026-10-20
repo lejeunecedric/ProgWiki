@@ -3,8 +3,9 @@ title: Robert Fripp
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1946-05-16
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-robert-fripp.md, raw/articles/wikipedia-guitar-craft.md, raw/articles/wikipedia-discipline-album.md]
+sources: [raw/articles/wikipedia-robert-fripp.md, raw/articles/wikipedia-guitar-craft.md, raw/articles/wikipedia-discipline-album.md, https://en.wikipedia.org/wiki/Robert_Fripp]
 confidence: high
 ---
 # Robert Fripp

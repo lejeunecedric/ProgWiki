@@ -3,8 +3,10 @@ title: John Wetton
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+died: 2017-01-31
+born: 1949-06-12
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-john-wetton.md, raw/articles/wikipedia-larks-tongues-in-aspic.md]
+sources: [raw/articles/wikipedia-john-wetton.md, raw/articles/wikipedia-larks-tongues-in-aspic.md, https://en.wikipedia.org/wiki/John_Wetton]
 confidence: high
 ---
 # John Wetton

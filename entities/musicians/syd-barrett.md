@@ -3,8 +3,10 @@ title: Syd Barrett
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+died: 2006-07-07
+born: 1946-01-06
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-pink-floyd.md, raw/articles/wikipedia-dark-side-of-the-moon.md, raw/articles/wikipedia-space-rock.md, raw/articles/harvest-records.md]
+sources: [raw/articles/wikipedia-pink-floyd.md, raw/articles/wikipedia-dark-side-of-the-moon.md, raw/articles/wikipedia-space-rock.md, raw/articles/harvest-records.md, https://en.wikipedia.org/wiki/Syd_Barrett]
 confidence: high
 ---
 # Syd Barrett

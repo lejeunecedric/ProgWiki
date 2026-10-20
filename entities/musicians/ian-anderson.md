@@ -3,8 +3,9 @@ title: Ian Anderson
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1947-08-10
 tags: [musician, band, history]
-sources: [raw/articles/ian-anderson.md, raw/articles/jethro-tull.md]
+sources: [raw/articles/ian-anderson.md, raw/articles/jethro-tull.md, https://en.wikipedia.org/wiki/Ian_Anderson]
 confidence: high
 ---
 

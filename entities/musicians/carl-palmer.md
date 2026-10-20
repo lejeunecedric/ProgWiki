@@ -3,8 +3,9 @@ title: Carl Palmer
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1950-03-20
 tags: [musician, history]
-sources: [raw/articles/carl-palmer.md, raw/articles/emerson-lake-palmer.md]
+sources: [raw/articles/carl-palmer.md, raw/articles/emerson-lake-palmer.md, https://en.wikipedia.org/wiki/Carl_Palmer]
 confidence: high
 ---
 

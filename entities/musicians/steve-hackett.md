@@ -3,8 +3,9 @@ title: Steve Hackett
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1950-02-12
 tags: [musician, history, music]
-sources: [raw/articles/steve-hackett.md, raw/articles/genesis-band.md]
+sources: [raw/articles/steve-hackett.md, raw/articles/genesis-band.md, https://en.wikipedia.org/wiki/Steve_Hackett]
 confidence: high
 ---
 

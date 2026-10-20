@@ -3,8 +3,10 @@ title: Chris Squire
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+died: 2015-06-27
+born: 1948-03-04
 tags: [musician, instrument, symphonic-prog]
-sources: [raw/articles/wikipedia-chris-squire.md, raw/articles/wikipedia-rickenbacker-4001.md]
+sources: [raw/articles/wikipedia-chris-squire.md, raw/articles/wikipedia-rickenbacker-4001.md, https://en.wikipedia.org/wiki/Chris_Squire]
 confidence: high
 ---
 

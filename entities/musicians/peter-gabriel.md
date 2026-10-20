@@ -3,8 +3,9 @@ title: Peter Gabriel
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1950-02-13
 tags: [musician, history, music]
-sources: [raw/articles/peter-gabriel.md, raw/articles/genesis-band.md]
+sources: [raw/articles/peter-gabriel.md, raw/articles/genesis-band.md, https://en.wikipedia.org/wiki/Peter_Gabriel]
 confidence: high
 ---
 

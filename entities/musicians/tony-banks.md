@@ -3,8 +3,9 @@ title: Tony Banks
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1950-03-27
 tags: [musician, history, music]
-sources: [raw/articles/wikipedia-genesis-band.md, raw/articles/genesis-band.md, raw/articles/charisma-records.md, raw/articles/wikipedia-mellotron.md, raw/articles/hammond-organ.md]
+sources: [raw/articles/wikipedia-genesis-band.md, raw/articles/genesis-band.md, raw/articles/charisma-records.md, raw/articles/wikipedia-mellotron.md, raw/articles/hammond-organ.md, https://en.wikipedia.org/wiki/Tony_Banks_(musician)]
 confidence: high
 ---
 # Tony Banks

@@ -3,8 +3,9 @@ title: Steve Howe
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
+born: 1947-04-08
 tags: [musician, symphonic-prog]
-sources: [raw/articles/wikipedia-steve-howe.md, raw/articles/wikipedia-yes-band.md]
+sources: [raw/articles/wikipedia-steve-howe.md, raw/articles/wikipedia-yes-band.md, https://en.wikipedia.org/wiki/Steve_Howe]
 confidence: high
 ---
 

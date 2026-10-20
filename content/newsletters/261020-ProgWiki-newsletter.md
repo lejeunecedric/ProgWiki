@@ -16,7 +16,9 @@ Dig deeper in [[king-crimson-legacy]].
 
 ## Anniversaries
 
-_No artist pages with a full `born: YYYY-MM-DD` in frontmatter yet — add dates and this column fills itself._
+### Many happy returns, Jon Anderson
+
+Born 1944 — turning **82** this week. Jon Anderson (born John Roy Anderson, 25 October 1944) is an English singer, songwriter and musician who co-founded the progressive rock band Yes with bassist Chris Squire in 1968 and rose to prominence as their lead vocalist. Known for his high tenor vocal style, Anderson was a member of Yes across three tenures: 1968 to 1980, 1983 to 1988, and 1990 to 2008.
 
 ## Back pages
 

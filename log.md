@@ -68,3 +68,9 @@
 ## [2026-10-20] newsletter | 70s-press rewrite
 - Rewrote `scripts/newsletter.py` as a music-magazine dispatch: NEW RELEASES (week-of album anniversaries + nearest-upcoming preview), SPECIAL (rotating concept/label/manufacturer/query feature with prose pulled from the page), ANNIVERSARIES (birthdays/deaths + early-card fallback), BACK PAGES (recent edits, reference room, queries)
 - Regenerated `content/newsletters/261020-ProgWiki-newsletter.md`
+
+## [2026-10-20] dates | frontmatter date enrichment from Wikidata
+- Added `scripts/enrich-dates.py` (batched Wikipedia->Wikidata resolver, prose cross-check, --plan/--apply)
+- 20 musician pages got `born:` (+ `died:` where applicable) from Wikidata P569/P570, cross-checked against page prose; Wikipedia URL added to sources
+- Jimmy Smith born year skipped (contested 1925/1928, flagged); all others verified
+- Regenerated newsletter
