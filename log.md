@@ -59,4 +59,4 @@
 - index.md updated (63 -> 77 pages); remaining high-citation candidates noted: kevin-ayers, hugh-banton, michael-giles, mel-collins, patrick-moraz, kraftwerk, henry-cow, kansas, fates-warning, caravan, national-health, math-rock, post-rock, motorik
 
 ## [2026-10-20] lint | 2 issues, fixed
-- log.md prose [[comparisons]]/[[queries]] converted to backticks; lint clean on 77 pages
+- log.md prose `comparisons/`/`queries/` folder mentions converted to backticks; lint clean on 77 pages
