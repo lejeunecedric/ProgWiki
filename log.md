@@ -64,3 +64,7 @@
 ## [2026-10-20] newsletter | first weekly newsletter + scripts/newsletter.py
 - Added `scripts/newsletter.py` (weekly generator: anniversaries from born/died/released frontmatter, recently updated pages, new raw references, queries on file)
 - Created `content/newsletters/261020-ProgWiki-newsletter.md`
+
+## [2026-10-20] newsletter | 70s-press rewrite
+- Rewrote `scripts/newsletter.py` as a music-magazine dispatch: NEW RELEASES (week-of album anniversaries + nearest-upcoming preview), SPECIAL (rotating concept/label/manufacturer/query feature with prose pulled from the page), ANNIVERSARIES (birthdays/deaths + early-card fallback), BACK PAGES (recent edits, reference room, queries)
+- Regenerated `content/newsletters/261020-ProgWiki-newsletter.md`
