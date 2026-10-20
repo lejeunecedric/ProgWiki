@@ -79,3 +79,8 @@
 - No [[wikilinks]], no wiki-internal references (raw/, scripts, frontmatter); reference names prettified with external links
 - Anniversaries now strictly current-week (removed early-card fallback)
 - Regenerated 261020 issue
+
+## [2026-10-20] newsletter | external-audience rules
+- NEW RELEASES = records newly found in the references of the week (album pages updated this week), written up from the album pages
+- Removed Back pages section entirely (no wiki housekeeping in an external newsletter)
+- Regenerated 261020 issue

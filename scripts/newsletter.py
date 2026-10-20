@@ -4,16 +4,16 @@
 Builds content/newsletters/YYMMDD-<WIKINAME>-newsletter.md for the current
 ISO week (Mon-Sun) from wiki frontmatter and page prose:
 
-  * NEW RELEASES  — albums whose `released:` date falls in this week (any
-                    year), written up as week-of news from the album pages
+  * NEW RELEASES  — records newly found this week in the references (album
+                    pages updated this week), written up from the album pages
   * SPECIAL       — rotating feature on one concept / label / manufacturer /
                     query page (rotates by ISO week number)
   * ANNIVERSARIES — artists whose `born:`/`died:` falls in THIS week only
-  * BACK PAGES    — recently updated pages, newly ingested references,
-                    queries on file (the notice board)
 
 External-audience rules: no [[wikilinks]], no references to wiki internals
 (frontmatter, raw/, scripts). Only current-week anniversaries are celebrated.
+No wiki housekeeping sections (recent edits, queries on file) — this reads
+like a music paper, not a changelog.
 
 Usage: WIKINAME=ProgWiki REPO=ProgWiki python3 scripts/newsletter.py
 Run from the repo root. Never invents dates — only frontmatter dates are used.
@@ -157,48 +157,28 @@ def feature_kind(fm):
 # ------------------------------------------------------------------ sections
 
 def section_new_releases(pages):
-    """Albums released this week (any year) — the news desk."""
+    """Records newly found this week (album pages updated this week)."""
+    cutoff = TODAY - dt.timedelta(days=WEEKS_BACK_UPDATED)
     rows = []
     for fm in album_pages(pages):
-        m = FULL_DATE.match(fm.get("released", ""))
-        if not m:
-            continue
-        y, mo, d = map(int, m.groups())
-        if md_in_week(mo, d):
-            rows.append((fm, y, mo, d))
-    rows.sort(key=lambda r: (r[2], r[3]))
+        m = FULL_DATE.match(fm.get("updated", ""))
+        if m and dt.date(*map(int, m.groups())) >= cutoff:
+            rows.append((fm.get("updated", ""), fm))
+    rows.sort(key=lambda r: r[0], reverse=True)
 
     L = ["## New releases this week\n"]
     if rows:
-        L.append("The rack is full this week. Long-players that hit the "
-                 "shops in this very week of history:\n")
-        for fm, y, mo, d in rows:
-            age = TODAY.year - y
+        L.append("Fresh finds in the record crates — long-players that joined "
+                 "the collection this week:\n")
+        for u, fm in rows[:RECENT_LIMIT]:
             prose = (first_sentences(page_body(fm["_path"], 500))
                      or "A record that helped write the rulebook.")
-            month = dt.date(2000, mo, d).strftime("%B") + f" {d}"
-            L.append(f"### {fm['_title']} ({y})\n")
-            L.append(f"**{month}, {y}** — {age} years ago this week: {prose}\n")
+            L.append(f"### {fm['_title']}\n")
+            L.append(f"{prose}\n")
+        if len(rows) > RECENT_LIMIT:
+            L.append(f"_…and {len(rows) - RECENT_LIMIT} more._\n")
     else:
-        L.append("Nothing in the crates this week — no album in the "
-                 "collection saw the light of shops during this week of "
-                 "history. The long-players, like the seasons, will come "
-                 "round again.\n")
-        near = []
-        for fm in album_pages(pages):
-            m = FULL_DATE.match(fm.get("released", ""))
-            if m:
-                y, mo, d = map(int, m.groups())
-                near.append((days_away(mo, d), fm, y))
-        near.sort(key=lambda r: r[0])
-        if near:
-            L.append("**Coming up on the calendar**:\n")
-            for days, fm, y in near[:3]:
-                when = TODAY + dt.timedelta(days=days)
-                L.append(f"- **{fm['_title']}** ({y}) — in "
-                         f"{days} day{'s' if days != 1 else ''} "
-                         f"({when.isoformat()})")
-            L.append("")
+        L.append("Nothing new in the crates this week — the dig continues.\n")
     return L
 
 
@@ -301,7 +281,6 @@ def main():
     L += section_new_releases(pages)
     L += section_special(pages)
     L += section_birthdays(pages)
-    L += section_back_pages(pages)
 
     os.makedirs("content/newsletters", exist_ok=True)
     out = os.path.join("content", "newsletters",
