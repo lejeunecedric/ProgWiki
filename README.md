@@ -83,7 +83,7 @@ PY
 
 1. Open **[index.md](index.md)** — it lists all 59 pages with a one-line summary.
 2. Follow the `[[wikilinks]]`. From [[king-crimson]] you'll reach [[mellotron]], [[odd-time-signatures]], [[bill-bruford]] — and back through them to [[symphonic-prog]] and beyond.
-3. Want a synthesis instead? Read the [[comparisons]] and [[queries]] pages.
+3. Want a synthesis instead? Read the `comparisons/` and `queries/` pages.
 
 ## Self-updating
 

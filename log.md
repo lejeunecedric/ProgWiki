@@ -46,3 +46,8 @@
 ## [2026-10-20] entities/references | 4 new reference pages
 - Added entities/references/: magazines, blogs, radio-stations, youtube-channels (prog rock sources for ingestion)
 - index.md updated (References section; total 59 -> 63)
+## [2026-10-20] lint + schema | tag taxonomy aligned, README links fixed
+- SCHEMA.md taxonomy: added cross-cutting slug tags (symphonic-prog, concept-album, neo-prog, progressive-metal, extended-composition)
+- Normalized off-taxonomy tags in 5 pages (genre/scene/movement/keyboard -> history)
+- README: [[comparisons]]/[[queries]] folder mentions converted to backticks (were lint BROKEN)
+- lint.py: 0 issues on 63 pages

@@ -3,7 +3,7 @@ title: Hammond Organ
 created: 2026-10-20
 updated: 2026-10-20
 type: entity
-tags: [instrument, keyboard, history]
+tags: [instrument, history]
 sources: [raw/articles/hammond-organ.md, raw/articles/keith-emerson.md]
 confidence: high
 ---

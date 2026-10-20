@@ -51,6 +51,11 @@ sha256: <hex digest of the body below the frontmatter>
 - `comparison` — side-by-side analyses
 - `query` — filed query results
 - `source` — note about an ingested source
+- `symphonic-prog` — slug tag, cross-cutting (canonical substyle slug)
+- `concept-album` — slug tag, cross-cutting
+- `neo-prog` — slug tag, cross-cutting
+- `progressive-metal` — slug tag, cross-cutting
+- `extended-composition` — slug tag, cross-cutting
 
 ## Page Thresholds
 - **Create a page** when an entity/concept appears in 2+ sources OR is central to one source

@@ -3,7 +3,7 @@ title: Canterbury Scene
 created: 2026-10-20
 updated: 2026-10-20
 type: substyle
-tags: [substyle, music, genre, scene]
+tags: [substyle, music, history]
 sources: [raw/articles/canterbury-scene.md, raw/articles/progressive-rock.md]
 confidence: high
 ---

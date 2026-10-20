@@ -3,7 +3,7 @@ title: Rock in Opposition
 created: 2026-10-20
 updated: 2026-10-20
 type: substyle
-tags: [substyle, music, genre, movement]
+tags: [substyle, music, history]
 sources: [raw/articles/rock-in-opposition.md, raw/articles/progressive-rock.md]
 confidence: high
 ---

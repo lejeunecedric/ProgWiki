@@ -3,7 +3,7 @@ title: Symphonic Prog
 created: 2026-10-20
 updated: 2026-10-20
 type: substyle
-tags: [substyle, music, genre]
+tags: [substyle, music, history]
 sources: [raw/articles/symphonic-prog.md, raw/articles/progressive-rock.md]
 confidence: high
 ---
