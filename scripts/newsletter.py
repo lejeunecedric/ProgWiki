@@ -8,10 +8,12 @@ ISO week (Mon-Sun) from wiki frontmatter and page prose:
                     year), written up as week-of news from the album pages
   * SPECIAL       — rotating feature on one concept / label / manufacturer /
                     query page (rotates by ISO week number)
-  * ANNIVERSARIES — artists whose `born:`/`died:` falls in this week; falls
-                    back to the nearest upcoming birthday
+  * ANNIVERSARIES — artists whose `born:`/`died:` falls in THIS week only
   * BACK PAGES    — recently updated pages, newly ingested references,
                     queries on file (the notice board)
+
+External-audience rules: no [[wikilinks]], no references to wiki internals
+(frontmatter, raw/, scripts). Only current-week anniversaries are celebrated.
 
 Usage: WIKINAME=ProgWiki REPO=ProgWiki python3 scripts/newsletter.py
 Run from the repo root. Never invents dates — only frontmatter dates are used.
@@ -176,12 +178,12 @@ def section_new_releases(pages):
                      or "A record that helped write the rulebook.")
             month = dt.date(2000, mo, d).strftime("%B") + f" {d}"
             L.append(f"### {fm['_title']} ({y})\n")
-            L.append(f"**{month}, {y}** — {age} years ago this week: {prose} "
-                     f"Full story in [[{fm['_slug']}]].\n")
+            L.append(f"**{month}, {y}** — {age} years ago this week: {prose}\n")
     else:
-        L.append("No anniversary pressings fall inside this week's window — "
-                 "the crates only yield a story when an album page carries a "
-                 "full `released: YYYY-MM-DD` in its frontmatter.\n")
+        L.append("Nothing in the crates this week — no album in the "
+                 "collection saw the light of shops during this week of "
+                 "history. The long-players, like the seasons, will come "
+                 "round again.\n")
         near = []
         for fm in album_pages(pages):
             m = FULL_DATE.match(fm.get("released", ""))
@@ -190,12 +192,12 @@ def section_new_releases(pages):
                 near.append((days_away(mo, d), fm, y))
         near.sort(key=lambda r: r[0])
         if near:
-            L.append("**Coming up on the calendar** (dates from the wiki):\n")
+            L.append("**Coming up on the calendar**:\n")
             for days, fm, y in near[:3]:
                 when = TODAY + dt.timedelta(days=days)
-                L.append(f"- **{fm['_title']}** ({y}) — the needle drops in "
+                L.append(f"- **{fm['_title']}** ({y}) — in "
                          f"{days} day{'s' if days != 1 else ''} "
-                         f"({when.isoformat()}), [[{fm['_slug']}]]")
+                         f"({when.isoformat()})")
             L.append("")
     return L
 
@@ -211,7 +213,6 @@ def section_special(pages):
     L.append(f"**This issue's special: {fm['_title']}** ({feature_kind(fm)})\n")
     if prose:
         L.append(prose + "\n")
-    L.append(f"Dig deeper in [[{fm['_slug']}]].\n")
     return L
 
 
@@ -236,25 +237,9 @@ def section_birthdays(pages):
             L.append(f"### Raising a glass: {fm['_title']}\n")
             L.append(f"Left us in {y}, {TODAY.year - y} years ago this week. {prose}\n")
     else:
-        near = []
-        for fm in artist_pages(pages):
-            m = FULL_DATE.match(fm.get("born", ""))
-            if m:
-                y, mo, d = map(int, m.groups())
-                near.append((days_away(mo, d), fm, y))
-        near.sort(key=lambda r: r[0])
-        if near and near[0][0] <= FALLBACK_DAYS:
-            days, fm, y = near[0]
-            age = TODAY.year - y + 1
-            prose = first_sentences(page_body(fm["_path"], 500))
-            L.append("No birthdays inside this week's window, so the cards "
-                     "go out early:\n")
-            L.append(f"### {fm['_title']} ({y})\n")
-            L.append(f"The candles come out in {days} day"
-                     f"{'s' if days != 1 else ''} — turning **{age}**. {prose}\n")
-        else:
-            L.append("_No artist pages with a full `born: YYYY-MM-DD` in "
-                     "frontmatter yet — add dates and this column fills itself._\n")
+        L.append("_No birthdays or memorial dates fall inside this week's "
+                 "window — the cards stay in the drawer until someone earns "
+                 "one._\n")
     return L
 
 
@@ -270,7 +255,7 @@ def section_back_pages(pages):
     L.append("### Recent edits\n")
     if upd:
         for u, fm in upd[:RECENT_LIMIT]:
-            L.append(f"- {u} — [[{fm['_slug']}]] — {fm['_title']}")
+            L.append(f"- {u} — {fm['_title']}")
         if len(upd) > RECENT_LIMIT:
             L.append(f"- _…and {len(upd) - RECENT_LIMIT} more_")
     else:
@@ -290,9 +275,11 @@ def section_back_pages(pages):
     raws.sort(key=lambda x: x[0], reverse=True)
     if raws:
         for ing, name, url in raws[:REF_LIMIT]:
-            L.append(f"- [{name}]({url})" if url else f"- {name}")
+            pretty = name.replace("-", " ")
+            pretty = re.sub(r"^wikipedia ", "", pretty).strip().capitalize()
+            L.append(f"- [{pretty}]({url})" if url else f"- {pretty}")
         if len(raws) > REF_LIMIT:
-            L.append(f"\n_…and {len(raws) - REF_LIMIT} more (see `raw/`)._")
+            L.append(f"\n_…and {len(raws) - REF_LIMIT} more._")
     else:
         L.append("_Nothing ingested this week._")
     L.append("")
@@ -302,8 +289,7 @@ def section_back_pages(pages):
     if qs:
         L.append("### Queries on file\n")
         for fm in qs:
-            L.append(f"- [[{fm['_slug']}]] — {fm['_title']} "
-                     f"_(updated {fm.get('updated', '?')})_")
+            L.append(f"- {fm['_title']} _(updated {fm.get('updated', '?')})_")
         L.append("")
     return L
 
@@ -311,8 +297,7 @@ def section_back_pages(pages):
 def main():
     pages = collect()
     L = [f"# THE {REPO.upper()} DISPATCH\n",
-         f"*Vol. {WEEK_IDX} — week of {MONDAY.isoformat()} to {SUNDAY.isoformat()}, "
-         f"printed {TODAY.isoformat()} by `scripts/newsletter.py`*\n"]
+         f"*Vol. {WEEK_IDX} — week of {MONDAY.isoformat()} to {SUNDAY.isoformat()}*\n"]
     L += section_new_releases(pages)
     L += section_special(pages)
     L += section_birthdays(pages)

@@ -74,3 +74,8 @@
 - 20 musician pages got `born:` (+ `died:` where applicable) from Wikidata P569/P570, cross-checked against page prose; Wikipedia URL added to sources
 - Jimmy Smith born year skipped (contested 1925/1928, flagged); all others verified
 - Regenerated newsletter
+
+## [2026-10-20] newsletter | external-audience rules
+- No [[wikilinks]], no wiki-internal references (raw/, scripts, frontmatter); reference names prettified with external links
+- Anniversaries now strictly current-week (removed early-card fallback)
+- Regenerated 261020 issue
