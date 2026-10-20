@@ -84,3 +84,8 @@
 - NEW RELEASES = records newly found in the references of the week (album pages updated this week), written up from the album pages
 - Removed Back pages section entirely (no wiki housekeeping in an external newsletter)
 - Regenerated 261020 issue
+
+## [2026-10-21] newsletter | external new releases
+- NEW RELEASES = actual records released this week, curated from the reference outlets (DPRP issues 2026-047/048) into content/newsletters/new-releases.md; script includes it verbatim
+- Masthead configurable via WIKI_TITLE env
+- Regenerated 261021 issue

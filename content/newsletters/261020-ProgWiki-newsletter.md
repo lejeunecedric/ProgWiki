@@ -1,4 +1,4 @@
-# THE PROGWIKI DISPATCH
+# The Prog Dog
 
 *Vol. 43 — week of 2026-10-19 to 2026-10-25*
 

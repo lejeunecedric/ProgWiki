@@ -4,8 +4,9 @@
 Builds content/newsletters/YYMMDD-<WIKINAME>-newsletter.md for the current
 ISO week (Mon-Sun) from wiki frontmatter and page prose:
 
-  * NEW RELEASES  — records newly found this week in the references (album
-                    pages updated this week), written up from the album pages
+  * NEW RELEASES  — records released THIS week, curated by the weekly agent
+                    from the wiki's reference blogs/magazines into
+                    content/newsletters/new-releases.md (included verbatim)
   * SPECIAL       — rotating feature on one concept / label / manufacturer /
                     query page (rotates by ISO week number)
   * ANNIVERSARIES — artists whose `born:`/`died:` falls in THIS week only
@@ -156,29 +157,23 @@ def feature_kind(fm):
 
 # ------------------------------------------------------------------ sections
 
-def section_new_releases(pages):
-    """Records newly found this week (album pages updated this week)."""
-    cutoff = TODAY - dt.timedelta(days=WEEKS_BACK_UPDATED)
-    rows = []
-    for fm in album_pages(pages):
-        m = FULL_DATE.match(fm.get("updated", ""))
-        if m and dt.date(*map(int, m.groups())) >= cutoff:
-            rows.append((fm.get("updated", ""), fm))
-    rows.sort(key=lambda r: r[0], reverse=True)
+def section_new_releases():
+    """New records released THIS week, found on the reference blogs/magazines.
 
+    The weekly agent curates content/newsletters/new-releases.md by browsing
+    the wiki's reference outlets (entities/references/); the script includes
+    it verbatim. No wiki-internal mentions, per the external-audience rules.
+    """
     L = ["## New releases this week\n"]
-    if rows:
-        L.append("Fresh finds in the record crates — long-players that joined "
-                 "the collection this week:\n")
-        for u, fm in rows[:RECENT_LIMIT]:
-            prose = (first_sentences(page_body(fm["_path"], 500))
-                     or "A record that helped write the rulebook.")
-            L.append(f"### {fm['_title']}\n")
-            L.append(f"{prose}\n")
-        if len(rows) > RECENT_LIMIT:
-            L.append(f"_…and {len(rows) - RECENT_LIMIT} more._\n")
-    else:
-        L.append("Nothing new in the crates this week — the dig continues.\n")
+    path = os.path.join("content", "newsletters", "new-releases.md")
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            body = f.read().strip()
+        if body:
+            L.append(body + "\n")
+            return L
+    L.append("Nothing in the crates this week — no release in the week's "
+             "papers. The dig continues.\n")
     return L
 
 
@@ -276,9 +271,10 @@ def section_back_pages(pages):
 
 def main():
     pages = collect()
-    L = [f"# THE {REPO.upper()} DISPATCH\n",
+    title = os.environ.get("WIKI_TITLE") or f"THE {REPO.upper()} DISPATCH"
+    L = [f"# {title}\n",
          f"*Vol. {WEEK_IDX} — week of {MONDAY.isoformat()} to {SUNDAY.isoformat()}*\n"]
-    L += section_new_releases(pages)
+    L += section_new_releases()
     L += section_special(pages)
     L += section_birthdays(pages)
 
