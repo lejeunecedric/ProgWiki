@@ -60,3 +60,7 @@
 
 ## [2026-10-20] lint | 2 issues, fixed
 - log.md prose `comparisons/`/`queries/` folder mentions converted to backticks; lint clean on 77 pages
+
+## [2026-10-20] newsletter | first weekly newsletter + scripts/newsletter.py
+- Added `scripts/newsletter.py` (weekly generator: anniversaries from born/died/released frontmatter, recently updated pages, new raw references, queries on file)
+- Created `content/newsletters/261020-ProgWiki-newsletter.md`
