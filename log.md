@@ -43,3 +43,6 @@
 - All raw sha256 verified; all provenance markers resolve
 - Total pages: 59 (11 bands, 14 musicians, 6 instruments, 4 labels, 8 sub-styles, 8 concepts, 6 comparisons, 2 queries)
 - index.md rebuilt from actual files
+## [2026-10-20] entities/references | 4 new reference pages
+- Added entities/references/: magazines, blogs, radio-stations, youtube-channels (prog rock sources for ingestion)
+- index.md updated (References section; total 59 -> 63)

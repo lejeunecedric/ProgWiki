@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-20 | Total pages: 59
+> Last updated: 2026-10-20 | Total pages: 63
 
 ## Entities
 
@@ -63,6 +63,14 @@
 - [[space-rock|Space Rock]] - **Space rock** is a music genre characterized by loose and lengthy song structures centred on instrumental textures that typically produce a hypnotic,…
 - [[symphonic-prog|Symphonic Prog]] - **Symphonic prog** (also called **symphonic progressive rock** or **symphonic rock**) is a subgenre of progressive-rock that adopts the scope, structu…
 - [[zeuhl|Zeuhl]] - **Zeuhl** (pronounced [zœl]; lit. "celestial") is a music genre — a hybrid of jazz fusion, symphonic rock and neoclassical music — established in 1969…
+
+### References
+<!-- Magazines, blogs, radio stations and YouTube channels used as ingestion sources. -->
+
+- [[references/magazines|Prog Rock Magazines]] - Prog, Classic Rock, Exposé, iO Pages, Mojo, It's Psychedelic Baby! — reviews and interviews.
+- [[references/blogs|Prog Rock Blogs and Webzines]] - DPRP, ProgArchives, The Progressive Aspect, Progradar, Something Else! — ingestion sources.
+- [[references/radio-stations|Prog Rock Radio Stations and Shows]] - Progzilla, progrock.com, ARFM, Radio Caroline, Gagliarchives — prog broadcasting.
+- [[references/youtube-channels|Prog Rock YouTube Channels]] - King Crimson (DGM), Yes Official, Steve Hackett, The Prog Report, Prog Magazine — live footage.
 
 ## Concepts
 
