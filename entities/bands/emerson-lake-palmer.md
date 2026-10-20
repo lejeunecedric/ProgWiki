@@ -17,7 +17,7 @@ confidence: high
 - Signed to Atlantic Records in North America; released *Emerson, Lake & Palmer* (1970) and *Tarkus* (1971), both UK top-five hits.^[raw/articles/emerson-lake-palmer.md]
 - *Tarkus* (1971) — concept suite of that name which reached No. 1 in the UK.^[raw/articles/emerson-lake-palmer.md]
 - Their live arrangement of Mussorgsky's *[[suite|Pictures at an Exhibition]]* was recorded at Newcastle City Hall on 26 March 1971 and released as an album.^[raw/articles/emerson-lake-palmer.md]
-- *Brain Salad Surgery* (1973) featured the 29-minute [[suite|"Karn Evil 9"]] suite, the longest single track they recorded.^[raw/articles/emerson-lake-palmer.md]
+- *Brain Salad Surgery* (1973, released on the band's own [[manticore-records|Manticore Records]] label) featured the 29-minute [[suite|"Karn Evil 9"]] suite, the longest single track they recorded.^[raw/articles/emerson-lake-palmer.md]
 - Reunited sporadically after 1979, including a full *Tarkus* live suite in August 2010 on a tour opening for Deep Purple and Dream Theater.^[raw/articles/emerson-lake-palmer.md]
 
 ## Signature sound

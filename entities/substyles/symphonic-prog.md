@@ -24,7 +24,7 @@ Symphonic prog is characterised by long, multi-movement suites; recurring leitmo
 - Virtuoso soloing and dramatic dynamic shifts
 - Literary, mythic or philosophical lyrics
 
-Only a minority of groups (ELP, Renaissance, Ekseption) directly emulated classical themes; most symphonic bands borrowed orchestral *technique* rather than literal classical compositions. ^[raw/articles/symphonic-prog.md]
+Only a minority of groups (ELP, [[renaissance|Renaissance]], Ekseption) directly emulated classical themes; most symphonic bands borrowed orchestral *technique* rather than literal classical compositions. ^[raw/articles/symphonic-prog.md]
 
 ## The classic era
 

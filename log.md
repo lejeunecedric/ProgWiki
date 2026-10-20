@@ -49,5 +49,14 @@
 ## [2026-10-20] lint + schema | tag taxonomy aligned, README links fixed
 - SCHEMA.md taxonomy: added cross-cutting slug tags (symphonic-prog, concept-album, neo-prog, progressive-metal, extended-composition)
 - Normalized off-taxonomy tags in 5 pages (genre/scene/movement/keyboard -> history)
-- README: [[comparisons]]/[[queries]] folder mentions converted to backticks (were lint BROKEN)
+- README: `comparisons`/`queries` folder mentions converted to backticks (were lint BROKEN)
 - lint.py: 0 issues on 63 pages
+
+## [2026-10-20] entity-extraction | 14 new pages from cited-but-undocumented entities
+- Scanned all 68 raw/articles/ sources against existing slugs; found cited entities with no page (2+ source citations each)
+- Created 14 pages: bands (dream-theater, gong, marillion, renaissance, soft-machine, tangerine-dream), musicians (adrian-belew, peter-hammill, roger-waters, syd-barrett, tony-banks, tony-levin), labels (manticore-records), substyles (jazz-fusion)
+- Added inbound wikilinks in existing pages: van-der-graaf-generator, genesis, symphonic-prog, progressive-metal, canterbury-scene, krautrock, neo-prog, zeuhl, emerson-lake-palmer
+- index.md updated (63 -> 77 pages); remaining high-citation candidates noted: kevin-ayers, hugh-banton, michael-giles, mel-collins, patrick-moraz, kraftwerk, henry-cow, kansas, fates-warning, caravan, national-health, math-rock, post-rock, motorik
+
+## [2026-10-20] lint | 2 issues, fixed
+- log.md prose [[comparisons]]/[[queries]] converted to backticks; lint clean on 77 pages

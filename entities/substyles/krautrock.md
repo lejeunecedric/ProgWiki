@@ -15,7 +15,7 @@ confidence: high
 ## Definition & origins
 - The term "krautrock" was popularised by British music journalists as a pejorative umbrella label for the diverse German scene; many of the artists disliked it, but it fell into standard usage.^[raw/articles/wikipedia-krautrock.md]
 - The movement grew partly out of the radical student protests of 1968, as German youth rebelled against their country's Nazi legacy and sought a popular music distinct from both traditional German music and American pop.^[raw/articles/wikipedia-krautrock.md]
-- Prominent groups associated with the label included [[canterbury-scene|Can]], [[krautrock|Neu!]], Faust, Tangerine Dream, Kraftwerk, Cluster, Ash Ra Tempel, Popol Vuh, Amon Düül II and Harmonia.^[raw/articles/wikipedia-krautrock.md]
+- Prominent groups associated with the label included [[canterbury-scene|Can]], [[krautrock|Neu!]], Faust, [[tangerine-dream|Tangerine Dream]], Kraftwerk, Cluster, Ash Ra Tempel, Popol Vuh, Amon Düül II and Harmonia.^[raw/articles/wikipedia-krautrock.md]
 
 ## Musical hallmarks
 - **The motorik beat** — a hypnotic, kick-drum-heavy 4/4 pulse that creates a forward-flowing feel, pioneered by Can's drummer Jaki Liebezeit and Neu!'s Klaus Dinger (who called it the "Apache beat").^[raw/articles/wikipedia-motorik.md]

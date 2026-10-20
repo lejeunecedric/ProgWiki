@@ -10,7 +10,7 @@ confidence: high
 
 # Van der Graaf Generator
 
-English progressive rock band formed in **1967 in Manchester** by singer-songwriters Peter Hammill and Chris Judge Smith — the first act signed to [[charisma-records]]. They achieved little commercial success in the UK but became hugely popular in Italy in the 1970s, and have reformed and remained active since 2005 as a trio (Hammill, organist Hugh Banton, drummer Guy Evans). ^[raw/articles/wikipedia-van-der-graaf-generator.md]
+English progressive rock band formed in **1967 in Manchester** by singer-songwriters [[peter-hammill|Peter Hammill]] and Chris Judge Smith — the first act signed to [[charisma-records]]. They achieved little commercial success in the UK but became hugely popular in Italy in the 1970s, and have reformed and remained active since 2005 as a trio (Hammill, organist Hugh Banton, drummer Guy Evans). ^[raw/articles/wikipedia-van-der-graaf-generator.md]
 
 ## Key facts & dates
 - **1969** — Brief split mid-formation; band regroups.

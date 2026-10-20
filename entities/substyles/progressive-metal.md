@@ -25,7 +25,7 @@ confidence: high
 ## Representative bands
 - **[[rush|Rush]]** — the Canadian trio is widely recognized as bridging the gap between hard rock, English progressive rock and pure heavy metal; *2112* (1976) showcased technical expertise and complex composition with a heavier approach.^[raw/articles/wikipedia-progressive-metal.md]
 - **Queensrÿche** — a leader of the mid-to-late-1980s progressive metal scene; *Operation: Mindcrime* (1988) is widely considered among the greatest heavy metal concept albums.^[raw/articles/wikipedia-progressive-metal.md]
-- **Dream Theater** — with *Images and Words* (1992) and *Awake* (1994), helped institutionalize classic progressive metal; one of the genre's "big three" along with Queensrÿche and Fates Warning.^[raw/articles/wikipedia-progressive-metal.md]
+- [[dream-theater|Dream Theater]] — with *Images and Words* (1992) and *Awake* (1994), helped institutionalize classic progressive metal; one of the genre's "big three" along with Queensrÿche and Fates Warning.^[raw/articles/wikipedia-progressive-metal.md]
 - **[[tool|Tool]]** — emerged with a classic heavy metal sound on *Undertow* (1993) before becoming a dominant act in alternative and progressive metal with *Ænima* (1996) and *Lateralus* (2001); toured with King Crimson in 2001.^[raw/articles/wikipedia-progressive-metal.md]
 
 ## Legacy

@@ -10,7 +10,7 @@ confidence: high
 
 # Neo-Prog
 
-**Neo-progressive rock** (commonly abbreviated **neo-prog**) is a subgenre of progressive rock that developed in the UK in the early 1980s. Its most popular band, Marillion, achieved mainstream success in the decade.^[raw/articles/wikipedia-neo-prog.md]
+**Neo-progressive rock** (commonly abbreviated **neo-prog**) is a subgenre of progressive rock that developed in the UK in the early 1980s. Its most popular band, [[marillion|Marillion]], achieved mainstream success in the decade.^[raw/articles/wikipedia-neo-prog.md]
 
 ## Definition & origins
 - Neo-prog surfaced in the UK in the early 1980s, drawing on the first wave of progressive rock — early [[genesis|Genesis]], [[camel|Camel]], and to a lesser extent [[van-der-graaf-generator|Van der Graaf Generator]] and [[pink-floyd|Pink Floyd]] — alongside funk, hard rock and punk.^[raw/articles/wikipedia-neo-prog.md]

@@ -14,7 +14,7 @@ The **Canterbury scene** (or **Canterbury sound**, "Canterbury music") is a musi
 
 ## Origins
 
-The scene was born from the ashes of **The Wilde Flowers**, a psych-pop outfit active in the mid-to-late 60s. After the band split up in 1969, its members went on to play in numerous bands — Soft Machine, Caravan, Gong, Hatfield and the North, Egg, National Health — with ever-changing, overlapping personnel. Its participants include Robert Wyatt, Kevin Ayers, Hugh Hopper, Mike Ratledge, Richard Sinclair, Daevid Allen, Steve Hillage and Dave Stewart. ^[raw/articles/canterbury-scene.md]
+The scene was born from the ashes of **The Wilde Flowers**, a psych-pop outfit active in the mid-to-late 60s. After the band split up in 1969, its members went on to play in numerous bands — Soft Machine, Caravan, [[gong|Gong]], Hatfield and the North, Egg, National Health — with ever-changing, overlapping personnel. Its participants include Robert Wyatt, Kevin Ayers, Hugh Hopper, Mike Ratledge, Richard Sinclair, Daevid Allen, Steve Hillage and Dave Stewart. ^[raw/articles/canterbury-scene.md]
 
 ## The "Canterbury sound"
 

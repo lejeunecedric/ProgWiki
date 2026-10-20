@@ -13,7 +13,7 @@ confidence: high
 **Genesis** were an English rock band formed in 1967 at Charterhouse School in Godalming, Surrey, and one of the defining acts of [[symphonic-prog|symphonic progressive rock]]. Their career spans two sharply distinct eras: the theatrical, [[concept-album|concept-album]]-driven Gabriel years (1970–1975) and the commercially dominant Collins-led pop-prog years (1976–1991). ^[raw/articles/genesis-band.md]
 
 ## Key facts
-- Formed 1967 at Charterhouse School by school pupils Peter Gabriel, Tony Banks, Anthony Phillips, Mike Rutherford and drummer Chris Stewart; named by alumnus Jonathan King, who produced their debut *From Genesis to Revelation* (1969).^[raw/articles/genesis-band.md]
+- Formed 1967 at Charterhouse School by school pupils Peter Gabriel, [[tony-banks|Tony Banks]], Anthony Phillips, Mike Rutherford and drummer Chris Stewart; named by alumnus Jonathan King, who produced their debut *From Genesis to Revelation* (1969).^[raw/articles/genesis-band.md]
 - Signed to [[charisma-records|Charisma Records]] in 1970 after label owner Tony Stratton Smith saw them at Ronnie Scott's; *Trespass* (1970) blended folk and progressive rock with time-signature changes.^[raw/articles/genesis-band.md]
 - The classic six-man line-up — Gabriel, Banks, Rutherford, [[phil-collins|Phil Collins]] and [[steve-hackett|Steve Hackett]] — recorded *Nursery Cryme* (1971), *Foxtrot* (1972), *Selling England by the Pound* (1973) and the double concept album *The Lamb Lies Down on Broadway* (1974).^[raw/articles/genesis-band.md]
 - Gabriel left in 1975; Collins took over lead vocals and, as a four-piece, the band released *A Trick of the Tail* and *Wind & Wuthering* (both 1976).^[raw/articles/genesis-band.md]

@@ -10,7 +10,7 @@ confidence: high
 
 # Zeuhl
 
-**Zeuhl** (pronounced [zœl]; lit. "celestial") is a music genre — a hybrid of jazz fusion, symphonic rock and neoclassical music — established in 1969 by the French band Magma. ^[raw/articles/zeuhl.md]
+**Zeuhl** (pronounced [zœl]; lit. "celestial") is a music genre — a hybrid of [[jazz-fusion|jazz fusion]], symphonic rock and neoclassical music — established in 1969 by the French band Magma. ^[raw/articles/zeuhl.md]
 
 ## Origins
 
