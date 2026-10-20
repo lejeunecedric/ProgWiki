@@ -89,3 +89,7 @@
 - NEW RELEASES = actual records released this week, curated from the reference outlets (DPRP issues 2026-047/048) into content/newsletters/new-releases.md; script includes it verbatim
 - Masthead configurable via WIKI_TITLE env
 - Regenerated 261021 issue
+
+## [2026-10-21] newsletter | this week, long ago
+- Section renamed to "This week, long ago"; now includes album release anniversaries (full dates in frontmatter, current week, last 60 years)
+- Verified via search: Led Zeppelin II released 22 Oct 1969 (in window); near-misses noted for the organ sibling (Head Hunters 26 Oct 1973, Shaft chart entry 16 Oct 1971, Caravanserai 11 Oct 1972)

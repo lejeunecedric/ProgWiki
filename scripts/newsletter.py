@@ -192,8 +192,16 @@ def section_special(pages):
 
 
 def section_birthdays(pages):
-    L = ["## Anniversaries\n"]
-    births, deaths = [], []
+    L = ["## This week, long ago\n"]
+    births, deaths, releases = [], [], []
+    for fm in album_pages(pages):
+        m = FULL_DATE.match(fm.get("released", ""))
+        if not m:
+            continue
+        y, mo, d = map(int, m.groups())
+        if md_in_week(mo, d) and TODAY.year - y <= 60:
+            releases.append((fm, y, mo, d))
+    releases.sort(key=lambda r: (r[2], r[3]))
     for fm in artist_pages(pages):
         m = FULL_DATE.match(fm.get("born", ""))
         if m and md_in_week(int(m.group(2)), int(m.group(3))):
@@ -201,7 +209,12 @@ def section_birthdays(pages):
         m = FULL_DATE.match(fm.get("died", ""))
         if m and md_in_week(int(m.group(2)), int(m.group(3))):
             deaths.append((fm, int(m.group(1))))
-    if births or deaths:
+    if births or deaths or releases:
+        for fm, y, mo, d in releases:
+            prose = (first_sentences(page_body(fm["_path"], 400))
+                     or "A record that helped write the rulebook.")
+            L.append(f"### {fm['_title']} ({y})\n")
+            L.append(f"**{TODAY.year - y} years ago this week**: {prose}\n")
         for fm, y in births:
             age = TODAY.year - y
             prose = first_sentences(page_body(fm["_path"], 500))
