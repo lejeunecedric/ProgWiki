@@ -93,3 +93,12 @@
 ## [2026-10-21] newsletter | this week, long ago
 - Section renamed to "This week, long ago"; now includes album release anniversaries (full dates in frontmatter, current week, last 60 years)
 - Verified via search: Led Zeppelin II released 22 Oct 1969 (in window); near-misses noted for the organ sibling (Head Hunters 26 Oct 1973, Shaft chart entry 16 Oct 1971, Caravanserai 11 Oct 1972)
+
+## [2026-10-26] ingest | wikipedia-henry-cow, wikipedia-kevin-ayers
+- Ingested 2 new sources to raw/articles/: Henry Cow and Kevin Ayers Wikipedia articles (sha256 recorded; neither URL previously ingested)
+- Created 2 pages: entities/bands/henry-cow.md, entities/musicians/kevin-ayers.md (born/died frontmatter from source)
+- Cross-linked: [[henry-cow]] in rock-in-opposition; [[kevin-ayers]] in canterbury-scene and harvest-records; updated dates bumped
+- index.md updated (77 -> 79 pages); candidate threads cleared for henry-cow, kevin-ayers; caravan remains a candidate (cited in Ayers source only as passing mention)
+
+## [2026-10-26] lint | 1 issue, fixed
+- TAG 'rock-in-opposition' on henry-cow not in taxonomy -> tag removed; lint clean on 79 pages (LANG warnings are known false positives)

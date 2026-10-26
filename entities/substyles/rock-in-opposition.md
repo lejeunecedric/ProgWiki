@@ -1,7 +1,7 @@
 ---
 title: Rock in Opposition
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-26
 type: substyle
 tags: [substyle, music, history]
 sources: [raw/articles/rock-in-opposition.md, raw/articles/progressive-rock.md]
@@ -10,7 +10,7 @@ confidence: high
 
 # Rock in Opposition
 
-**Rock in Opposition** (RIO) was a movement representing a collective of progressive rock bands in the late 1970s, united in their opposition to a music industry that refused to recognise their music. It was initiated by the English avant-prog group Henry Cow in March 1978. ^[raw/articles/rock-in-opposition.md]
+**Rock in Opposition** (RIO) was a movement representing a collective of progressive rock bands in the late 1970s, united in their opposition to a music industry that refused to recognise their music. It was initiated by the English avant-prog group [[henry-cow|Henry Cow]] in March 1978. ^[raw/articles/rock-in-opposition.md]
 
 ## Origins
 

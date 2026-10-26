@@ -1,7 +1,7 @@
 ---
 title: Harvest Records
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-26
 type: entity
 tags: [label, history]
 sources: [raw/articles/harvest-records.md]
@@ -23,7 +23,7 @@ In the 1970s the label primarily released progressive rock by British acts, incl
 - [[pink-floyd|Pink Floyd]] — their UK label
 - Deep Purple
 - Syd Barrett
-- Kevin Ayers
+- [[kevin-ayers|Kevin Ayers]]
 - Roy Harper
 - Barclay James Harvest
 - Be-Bop Deluxe
