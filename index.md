@@ -2,13 +2,14 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-10-26 | Total pages: 79
+> Last updated: 2026-11-02 | Total pages: 81
 
 ## Entities
 
 ### Bands
 
 - [[camel|Camel]] - English progressive rock band formed in **Guildford, Surrey, in 1971** by guitarist **Andrew Latimer**, drummer Andy Ward and bassist Doug Ferguson, w…
+- [[caravan|Caravan]] - English band from the Canterbury area founded **1968** by ex-Wilde Flowers members (Hastings, the Sinclairs, Coughlan); *In the Land of Grey and Pink* (1971); a key [[canterbury-scene|Canterbury scene]] act.
 - [[dream-theater|Dream Theater]] - American [[progressive-metal|progressive metal]] band formed in 1985 in Boston; *Images and Words* (1992) and *Awake* (1994) institutionalised classic prog metal; first Grammy in 2022 for "The Alien".
 - [[emerson-lake-palmer|Emerson, Lake & Palmer]] - **Emerson, Lake & Palmer (ELP)** were an English progressive rock supergroup active 1970–1979 and on several later reunions, formed by keyboardist kei…
 - [[genesis|Genesis]] - **Genesis** were an English rock band formed in 1967 at Charterhouse School in Godalming, Surrey, and one of the defining acts of symphonic-prog. Thei…
@@ -18,6 +19,7 @@
 - [[jethro-tull|Jethro Tull]] - **Jethro Tull** are an English rock band formed in 1967–68 around flautist, singer and songwriter ian-anderson. Beginning in the blues scene, they dev…
 - [[king-crimson|King Crimson]] - **King Crimson** were an English progressive rock band formed in London in 1968, led by guitarist and primary composer robert-fripp — the group's sole…
 - [[marillion|Marillion]] - English band formed 1979 in Aylesbury, the most popular [[neo-prog|neo-prog]] band; *Misplaced Childhood* (1985) topped the UK Albums Chart; pioneers of fan-funded records.
+- [[national-health|National Health]] - Canterbury-associated progressive rock band founded **1975** from Hatfield and the North and Gilgamesh members; lengthy instrumental compositions; *Of Queues and Cures* (1978).
 - [[pink-floyd|Pink Floyd]] - English rock band formed in **London in 1965** by Syd Barrett (guitar, vocals), Nick Mason (drums), Roger Waters (bass, vocals) and Richard Wright (ke…
 - [[renaissance|Renaissance]] - English progressive rock band formed in 1969, among the few prog groups fully embracing Western classical material; [[symphonic-prog|symphonic prog]] with Annie Haslam's operatic voice.
 - [[rush|Rush]] - **Rush** are a Canadian rock band formed in Toronto in 1968. After a brief early line-up, they settled into the classic power trio of bassist/vocalist…

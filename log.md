@@ -102,3 +102,9 @@
 
 ## [2026-10-26] lint | 1 issue, fixed
 - TAG 'rock-in-opposition' on henry-cow not in taxonomy -> tag removed; lint clean on 79 pages (LANG warnings are known false positives)
+
+## [2026-11-02] ingest | wikipedia-caravan, wikipedia-national-health
+- Ingested 2 new sources to raw/articles/ (sha256 recorded; neither URL previously ingested)
+- Created 2 pages: entities/bands/caravan.md, entities/bands/national-health.md (founded frontmatter from source)
+- Cross-linked: [[caravan]] and [[national-health]] in canterbury-scene; index.md updated (79 -> 81 pages)
+- Candidate threads cleared for caravan, national-health; new candidates noted from these sources: hatfield-and-the-north, wilde-flowers, robert-wyatt (central to Caravan/NH sources)
