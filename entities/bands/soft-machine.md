@@ -1,7 +1,7 @@
 ---
 title: Soft Machine
 created: 2026-10-20
-updated: 2026-10-20
+updated: 2026-11-09
 type: entity
 tags: [band, history, music]
 sources: [raw/articles/canterbury-scene.md, raw/articles/progressive-rock.md, raw/articles/jazz-fusion.md]
@@ -12,7 +12,7 @@ confidence: high
 **Soft Machine** are an English rock band formed in 1966, the founding and central band of the [[canterbury-scene|Canterbury scene]] and a key early jazz-rock act.^[raw/articles/canterbury-scene.md]
 
 ## Key facts
-- Grew out of the Wilde Flowers, the mid-to-late-60s psych-pop outfit whose members went on to Soft Machine, Caravan, Gong, Hatfield and the North, Egg and National Health with ever-changing overlapping personnel.^[raw/articles/canterbury-scene.md]
+- Grew out of the Wilde Flowers, the mid-to-late-60s psych-pop outfit whose members went on to Soft Machine, Caravan, Gong, [[hatfield-and-the-north|Hatfield and the North]], Egg and National Health with ever-changing overlapping personnel.^[raw/articles/canterbury-scene.md]
 - The Daevid Allen Trio, which later became Soft Machine, formed in 1963 — before, as AllMusic notes, "the worlds of jazz and rock were nearly completely separate".^[raw/articles/jazz-fusion.md]
 - Counted among the jazz-rock bands (with Chicago, Colosseum, Nucleus, Brand X, the Mothers of Invention) that blended jazz and rock with electric instruments.^[raw/articles/jazz-fusion.md]
 - In 1968 they functioned as a house band at London underground events (UFO Club, Middle Earth) alongside [[pink-floyd|Pink Floyd]], experimenting with sound textures and long-form songs; their debut appeared in the same 1968-1970 founding wave as Caravan and [[jethro-tull|Jethro Tull]].^[raw/articles/progressive-rock.md]

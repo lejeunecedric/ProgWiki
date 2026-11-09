@@ -1,7 +1,7 @@
 ---
 title: National Health
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-09
 type: entity
 tags: [band, history, music]
 founded: 1975
@@ -11,7 +11,7 @@ confidence: medium
 
 # National Health
 
-**National Health** were an English progressive rock band associated with the [[canterbury-scene|Canterbury scene]], founded in 1975 from members of Dave Stewart's Hatfield and the North and Alan Gowen's Gilgamesh. Original members included guitarists Phil Miller and Phil Lee and bassist Mont Campbell; [[bill-bruford|Bill Bruford]] (previously of [[yes|Yes]] and [[king-crimson|King Crimson]]) was the initial drummer, soon replaced by Pip Pyle. The band was named after Stewart's National Health Service spectacles.^[raw/articles/wikipedia-national-health.md]
+**National Health** were an English progressive rock band associated with the [[canterbury-scene|Canterbury scene]], founded in 1975 from members of Dave Stewart's [[hatfield-and-the-north|Hatfield and the North]] and Alan Gowen's Gilgamesh. Original members included guitarists Phil Miller and Phil Lee and bassist Mont Campbell; [[bill-bruford|Bill Bruford]] (previously of [[yes|Yes]] and [[king-crimson|King Crimson]]) was the initial drummer, soon replaced by Pip Pyle. The band was named after Stewart's National Health Service spectacles.^[raw/articles/wikipedia-national-health.md]
 
 ## History
 

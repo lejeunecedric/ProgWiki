@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-11-02 | Total pages: 81
+> Last updated: 2026-11-09 | Total pages: 83
 
 ## Entities
 
@@ -22,6 +22,7 @@
 - [[national-health|National Health]] - Canterbury-associated progressive rock band founded **1975** from Hatfield and the North and Gilgamesh members; lengthy instrumental compositions; *Of Queues and Cures* (1978).
 - [[pink-floyd|Pink Floyd]] - English rock band formed in **London in 1965** by Syd Barrett (guitar, vocals), Nick Mason (drums), Roger Waters (bass, vocals) and Richard Wright (ke…
 - [[renaissance|Renaissance]] - English progressive rock band formed in 1969, among the few prog groups fully embracing Western classical material; [[symphonic-prog|symphonic prog]] with Annie Haslam's operatic voice.
+- [[hatfield-and-the-north|Hatfield and the North]] - Experimental [[canterbury-scene|Canterbury scene]] band active October 1972–June 1975 (Miller/Pyle/Sinclair/Stewart); *The Rotters' Club* (1975) on [[virgin-records|Virgin]]; grew into [[national-health|National Health]].
 - [[rush|Rush]] - **Rush** are a Canadian rock band formed in Toronto in 1968. After a brief early line-up, they settled into the classic power trio of bassist/vocalist…
 - [[soft-machine|Soft Machine]] - English band formed in 1966, the founding and central band of the [[canterbury-scene|Canterbury scene]] and a key early jazz-rock act.
 - [[tangerine-dream|Tangerine Dream]] - German electronic band founded 1967 in Berlin by Edgar Froese; central to [[krautrock|krautrock]]; *Phaedra* (1974) a Top 20 hit for [[virgin-records|Virgin]].
@@ -41,6 +42,7 @@
 - [[jon-anderson|Jon Anderson]] - Jon Anderson (born John Roy Anderson, 25 October 1944) is an English singer, songwriter and musician who co-founded the progressive rock band yes with…
 - [[keith-emerson|Keith Emerson]] - **Keith Noel Emerson** (2 November 1944 – 11 March 2016) was an English keyboardist, songwriter, composer and record producer, one of prog's defining…
 - [[kevin-ayers|Kevin Ayers]] - Founding bassist/vocalist of [[soft-machine|Soft Machine]] (1944–2013) and [[canterbury-scene|Canterbury scene]] figure; *Joy of a Toy* (1969) was one of the first [[harvest-records|Harvest]] releases.
+- [[robert-wyatt|Robert Wyatt]] - English musician (born 28 January 1945), drummer/vocalist of [[soft-machine|Soft Machine]] and Matching Mole, [[canterbury-scene|Canterbury scene]] founding figure; *Rock Bottom* (1974) and a politicised 40-year solo career.
 - [[peter-gabriel|Peter Gabriel]] - **Peter Brian Gabriel** (born 13 February 1950) is an English singer-songwriter, musician and human rights activist, best known as the co-founder and…
 - [[peter-hammill|Peter Hammill]] - English singer-songwriter (born 5 November 1948), founder and voice of [[van-der-graaf-generator|Van der Graaf Generator]]; 1970s solo albums on [[charisma-records|Charisma]].
 - [[phil-collins|Phil Collins]] - **Philip David Charles Collins** (born 30 January 1951) is an English singer, drummer, songwriter, record producer and actor, best known as the drumme…

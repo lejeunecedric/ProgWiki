@@ -108,3 +108,12 @@
 - Created 2 pages: entities/bands/caravan.md, entities/bands/national-health.md (founded frontmatter from source)
 - Cross-linked: [[caravan]] and [[national-health]] in canterbury-scene; index.md updated (79 -> 81 pages)
 - Candidate threads cleared for caravan, national-health; new candidates noted from these sources: hatfield-and-the-north, wilde-flowers, robert-wyatt (central to Caravan/NH sources)
+
+## [2026-11-09] ingest | wikipedia-robert-wyatt, wikipedia-hatfield-and-the-north
+- Ingested 2 new sources to raw/articles/ (sha256 recorded; neither URL previously ingested)
+- Created 2 pages: entities/musicians/robert-wyatt.md (born frontmatter from source), entities/bands/hatfield-and-the-north.md (founded frontmatter from source)
+- Cross-linked inbound: [[robert-wyatt]] and [[hatfield-and-the-north]] added in canterbury-scene; [[hatfield-and-the-north]] in soft-machine and national-health; [[robert-wyatt]] in caravan; updated dates bumped
+- index.md updated (81 -> 83 pages); candidate thread cleared for robert-wyatt, hatfield-and-the-north; remaining candidate: wilde-flowers
+
+## [2026-11-09] lint | 0 issues
+- Lint clean on 83 pages (LANG warnings are known false positives)

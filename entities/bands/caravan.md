@@ -1,7 +1,7 @@
 ---
 title: Caravan
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-09
 type: entity
 tags: [band, history, music]
 founded: 1968
@@ -15,7 +15,7 @@ confidence: high
 
 ## Origins
 
-All four founding members had passed through the Canterbury-based Wilde Flowers, though not simultaneously. Pye Hastings had replaced Robert Wyatt as the group's singer when Wyatt left to form [[soft-machine|Soft Machine]]; after the Wilde Flowers broke up in October 1967, Coughlan, Hastings and the two Sinclairs formed Caravan in 1968. The band rehearsed in a rented Whitstable house and even borrowed Soft Machine's PA while that band toured the US with Jimi Hendrix.^[raw/articles/wikipedia-caravan.md]
+All four founding members had passed through the Canterbury-based Wilde Flowers, though not simultaneously. Pye Hastings had replaced [[robert-wyatt|Robert Wyatt]] as the group's singer when Wyatt left to form [[soft-machine|Soft Machine]]; after the Wilde Flowers broke up in October 1967, Coughlan, Hastings and the two Sinclairs formed Caravan in 1968. The band rehearsed in a rented Whitstable house and even borrowed Soft Machine's PA while that band toured the US with Jimi Hendrix.^[raw/articles/wikipedia-caravan.md]
 
 ## Career
 
